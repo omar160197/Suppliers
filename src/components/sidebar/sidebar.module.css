@@ -1,0 +1,27 @@
+.parent{
+    min-height: 100%;
+    max-width: 100%;
+    background-color: #F5F5F5;
+}
+
+.title{
+   padding-left: 5%;
+   padding-top: 3%;
+   font-size: 20px; 
+}
+
+.subTitle{
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: 18px; 
+ }
+
+.divider{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.plusContainer{
+   display: flex;
+   align-items: center; 
+}

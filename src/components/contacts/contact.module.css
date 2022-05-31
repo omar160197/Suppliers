@@ -1,0 +1,102 @@
+.formClass{
+    width: 100%;
+    margin-top: 10%; 
+ }
+ 
+ .inputContainer{
+    width: 100%
+ }
+
+ .headerDiv{
+    display: flex;
+    padding: 2%;
+    justify-content: space-between;
+    align-Content: center;
+    width: 100%;
+    height: 10%;
+    background-color: #F5F5F5 !important;
+ }
+
+ .radio{
+    width: 15px;
+    height: 15px;
+ }
+
+ .radioContainer{
+   width: 25px;
+   height: 27px;
+   border: 1px solid #ada9a9;
+   text-align:center;
+   display: inline-block;
+ }
+
+ .radioWraper{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ 
+ .secondInputContainer{
+    width: 100%;
+    margin-top: 3%; 
+ }
+ 
+ .buttonsWrap{
+    display: flex;
+    justify-content: space-between 
+ }
+ .supmitButton{
+    width: 45%;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 3% !important;
+    background-color:#ff9800 !important;
+    color: white !important;
+    
+ }
+ 
+ .cancelButton{
+    margin-bottom: 3% !important;
+    width: 45%;
+    border-color:black !important;
+    color:black !important;
+ }
+
+ .cancelButton:hover{
+    border-color:black !important;
+ }
+
+ .email{
+    width: 100%; 
+    height: 30px; 
+     border-color: #ada9a9;
+     border-bottom-style: solid;
+     border-top-style: none;
+     border-left-style: none;
+     border-right-style: none;
+    margin-bottom: 10px;
+ 
+  }
+ 
+  .comments{
+     border-color: #ada9a9;
+    border-style: solid; 
+     margin-bottom: 10px;
+     line-height: normal; 
+  } 
+ 
+  .email:focus {
+     border-color: black;
+     border-bottom-style:solid;
+      outline: none !important;
+    }
+ 
+    
+    .comments:focus{
+     border-color: #ada9a9;
+     margin-bottom: 10px; 
+     outline:1px solid !important;
+ 
+  }   
